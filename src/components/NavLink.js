@@ -13,7 +13,7 @@ const NavLink = ({ navigation, text, routeName }) => {
   )
 };
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
   link: {
     color: 'blue'
   }
