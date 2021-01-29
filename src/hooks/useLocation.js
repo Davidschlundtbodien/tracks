@@ -8,7 +8,7 @@ import {
 export default (callback) => {
   const [err, setErr] = useState(null);
 
-  const startWatching = async () => {
+  const startWatching = async() => {
     try {
       const { granted } = await requestPermissionsAsync();
       if (!granted) {
