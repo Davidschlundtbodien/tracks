@@ -11,7 +11,7 @@ export default (shouldTrack, callback) => {
 
   useEffect(() => {
     let subscriber;
-    const startWatching = async () => {
+    const startWatching = async() => {
       try {
         const { granted } = await requestPermissionsAsync();
         if (!granted) {
